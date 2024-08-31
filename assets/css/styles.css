@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #ed6835;
+  --background-blue: #0b2147;
+  --background-grey: #edf2f4;
+  --background-pale-orange: #fef7f5;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+}
+
+div,
+p,
+ol,
+ul,
+li {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+.section {
+  width: 100vw;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-large {
+  font-size: 28px;
+}
+
+.text-medium {
+  font-size: 20px;
+}
+
+.backgroud-blue {
+  background-color: var(--background-blue);
+}
+
+.backgroud-grey {
+  background-color: var(--background-grey);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 32px;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px 40px;
+}
+
+.tag {
+  background-color: var(--background-pale-orange);
+  width: fit-content;
+  border: solid 1px var(--primary-color);
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: var(--primary-color);
+}
+
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.hero {
+  background-color: var(--background-blue);
+  padding: 96px 0 36px 0;
+  display: flex;
+  gap: 140px;
+  justify-content: space-between;
+}
+
+.hero-content {
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 0;
+}
+
+.gallery-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.carousel {
+  display: flex;
+  gap: 16px;
+  padding: 40px 0;
+}
+
+.card {
+  background-color: var(--background-grey);
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.lawyer-section {
+  padding: 80px 0;
+}
+
+.lawyer-profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lawyer-profile {
+  display: flex;
+  flex: 1;
+  gap: 40px;
+}
+
+.lawyer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.lawyer-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.map {
+  padding: 60px 0;
+}
+
+.map-description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
